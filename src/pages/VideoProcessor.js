@@ -57,10 +57,11 @@ const buttonWrapper = {
 const description = {
   title: 'Instructions and Requirements for the Video',
   points: [
-    'This is a tempory descripton. Please replace',
-    'This is a tempory descripton. Please replace',
-    'This is a tempory descripton. Please replace',
-    'This is a tempory descripton. Please replace',
+    "Video should be less than 5 seconds and should cover the batsman's sideview.",
+    'Video quality should be 4k 30fps or more.',
+    'Video file format should be in .MOV format.',
+    'Select the played areas as indoor/outdoor.',
+    'Select the playing hand as left/right.',
   ],
 };
 

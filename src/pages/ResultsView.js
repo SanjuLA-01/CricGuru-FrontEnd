@@ -59,12 +59,25 @@ const error = {
 };
 
 const sampleInjuries = [
-  'Sample injury 1',
-  'Sample injury 2',
-  'Sample injury 3',
-  'Sample injury 4',
-  'Sample injury 5',
-  'Sample injury 6',
+  'Ankle sprains',
+  'Knee injuries',
+  'Lower back pain',
+  'Shoulder injuries',
+];
+
+const sampleInjuries1 = [
+  'Ankle sprains',
+  'knee inuries',
+  'Hamstring strains',
+  'Groin strains',
+  'Lower back pain',
+];
+
+const sampleInjuries2 = [
+  'Shoulder injuries',
+  'Elbow injuries',
+  'Hand and finger injuries',
+  'Back injuries',
 ];
 
 export const ResultsView = () => {
@@ -109,7 +122,7 @@ export const ResultsView = () => {
                 {processedData.leg === 'correct' ? (
                   <NoInjury />
                 ) : (
-                  <Injuries injuries={sampleInjuries} />
+                  <Injuries injuries={sampleInjuries1} />
                 )}
               </Grid>
               <Grid item textAlign={'center'} xs={4}>
@@ -127,7 +140,7 @@ export const ResultsView = () => {
                 {processedData.shot === 'correct' ? (
                   <NoInjury />
                 ) : (
-                  <Injuries injuries={sampleInjuries} />
+                  <Injuries injuries={sampleInjuries2} />
                 )}
               </Grid>
             </Grid>

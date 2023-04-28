@@ -59,3 +59,16 @@ body::before {
   ); /* Change the opacity value to adjust the darkness of the filter */
   z-index: -1;
 }
+
+.landing-card {
+  position: relative;
+}
+
+.landing-card img{
+  position: absolute;
+  bottom: 0;
+  left: 65%;
+  width: 300px;
+  z-index:0
+}
+
